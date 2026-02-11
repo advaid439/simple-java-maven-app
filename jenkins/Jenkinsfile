@@ -28,7 +28,7 @@ pipeline {
         }
         stage('Trigger') {
             steps {
-                echo 'Trigger Works!'
+                echo 'Trigger Works!!'
             }
         }
     }
