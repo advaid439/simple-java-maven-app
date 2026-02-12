@@ -31,7 +31,7 @@ pipeline {
                 echo 'Trigger Works!!!'
             }
         }
-        stage('Trigger') {
+        stage('PAT') {
             steps {
                 echo 'PAT Works!!!'
             }
