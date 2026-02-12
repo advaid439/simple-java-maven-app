@@ -31,5 +31,10 @@ pipeline {
                 echo 'Trigger Works!!!'
             }
         }
+        stage('Trigger') {
+            steps {
+                echo 'PAT Works!!!'
+            }
+        }
     }
 }
