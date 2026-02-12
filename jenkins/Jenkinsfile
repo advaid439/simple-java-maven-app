@@ -36,5 +36,10 @@ pipeline {
                 echo 'PAT Works!!!'
             }
         }
+        stage('Branch') {
+            steps {
+                echo 'Branch Works!!!'
+            }
+        }
     }
 }
